@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Nova Html5-SQLite Demo -- Users Management</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/nova.data.js"></script>
+    <script src="js/demo.js"></script>
+</head>
+<body>
+    <h1>Nova Html5-SQLite Demo -- Users Management</h1>
+    <div class="content-inner">
+        <fieldset>
+            <legend>Add a User</legend>
+            <form action="/" method="POST" id="formEdit">
+                <input type="hidden" name="id" value="0" id="hfId"/>
+                <table>
+                    <tr>
+                        <td>username</td>
+                        <td>birth year</td>
+                        <td>disabled?</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="txtUsername" name="username"/></td>
+                        <td><select id="ddlYears" name="year"></select></td>
+                        <td>
+                            <select id="ddlDisabled" name="disabled">
+                                <option value="false">no</option>
+                                <option value="true">yes</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="button" value="Add" id="btnAdd"/>
+                            <input type="button" value="Update" id="btnUpdate" class="hide"/>
+                            <input type="reset" value="Cancel" id="btnCancel" class="hide"/>
+                        </td>
+                    </tr>
+                </table>    
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Database Users</legend>
+            <table class="data">
+                <colgroup>
+                
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>username</th>
+                        <th>birth year</th>
+                        <th>disabled?</th>
+                        <th>created on</th>
+                        <th>last updated</th>
+                        <th>operation</th>
+                    </tr>
+                </thead>
+                <tbody id="users">
+                    <tr>
+                        <td>xx</td>
+                        <td>1980</td>
+                        <td>no</td>
+                        <td>2013-12-12</td>
+                        <td>-</td>
+                        <td>
+                            <input type="button" value="edit" class="btn-edit"/>
+                            <input type="button" value="delete" class="btn-delete"/>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>    
+    </div>
+    <div id="footer">
+        &copy; 2014, <a href="http://www.google.com/+leotsai2010">Leo</a>
+    </div>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function () {
+            demo.db.init(function () {
+                new demo.pages.Index().onLoaded();
+            });
+        });
+    </script>
+</body>
+</html>
