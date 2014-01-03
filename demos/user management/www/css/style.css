@@ -45,3 +45,12 @@ h1 {
 #footer a {
     color: #9ec3d3;
 }
+div.warning {
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    background-color: #FFF5DD;
+    border: 1px solid #E2B241;
+    color: #AA6900;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
