@@ -1,4 +1,3 @@
-
 HTML5 SQLite
 ===========
 # 1. Get Started
@@ -7,6 +6,12 @@ Please use google chrome to test, as I know FireFox doesn’t support HTML5 Sqli
 [click here](http://sandbox.runjs.cn/show/pekbd9zb) to see a live demo, that would help you understand. The source code of this demo is also in this repository [here]( https://github.com/leotsai/html5sqlite/tree/master/demos/user%20management)
 
 If you know [Microsoft Entity Framework For .NET](http://msdn.microsoft.com/en-us/data/ef.aspx)(EF), you will find this library is very similar to it, which is actually my goal.
+
+You can [donate to us](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=leo_2010%40msn%2ecn&lc=US&item_name=HTML520%SQLite&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest) if you like this library.
+
+=======================
+
+Get started steps:
 
 **1.1** download all of the source code.
 
