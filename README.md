@@ -8,7 +8,7 @@ If you know [Microsoft Entity Framework For .NET](http://msdn.microsoft.com/en-u
 1. **Linq-like query**. e.g. db.users.where(...).where(...).orderBy(...).thenBy(...).toArray(callback).
 1. **Auto-increment field "id" is updated automatically on inserted**. When a new item is inserted, the auto-increment field "id" will be updated automatically. Just like what EF does.
 
-This library was originally from our [Nova PhoneGap Framework](http://cordova.codeplex.com). If you want to outsource your APPs development, you can [contact our phonegap team](http://www.novasoftware.com/ContactUs.aspx?utm_source=githubsqlite&utm_medium=phonegap&utm_campaign=leo).
+This library was originally from our [Nova PhoneGap Framework](http://cordova.codeplex.com). If you want to outsource your APPs development, or you are looking for PhoneGap/Cordova developers/programmers, you can [contact our phonegap team](http://www.novasoftware.com/ContactUs.aspx?utm_source=githubsqlite&utm_medium=phonegap&utm_campaign=leo).
 
 
 # 1. Get Started
