@@ -1,4 +1,4 @@
-HTML5 SQLite
+HTML5 SQLite for PhoneGap/Cordova
 ===========
 If you know [Microsoft Entity Framework For .NET](http://msdn.microsoft.com/en-us/data/ef.aspx)(EF), you will find this library is very similar to it, which is actually my goal. Like EF, the below cool features has been achieved in this library:
 
