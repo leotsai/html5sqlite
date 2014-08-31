@@ -11,7 +11,7 @@
             <key>kind</key>
             <string>software-package</string>
             <key>url</key>
-            <string>http://114.215.136.72:8286/files/cqu.ipa</string>
+            <string>https://raw.githubusercontent.com/leotsai/html5sqlite/master/_files/cqu.ipa</string>
           </dict>
         </array>
         <key>metadata</key>
@@ -23,7 +23,7 @@
           <key>kind</key>
           <string>software</string>
           <key>title</key>
-          <string>CQU</string>
+          <string>小铅笔</string>
         </dict>
       </dict>
     </array>
